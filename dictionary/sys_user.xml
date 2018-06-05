@@ -8,5 +8,8 @@
         <element label="EmployeeID" max_length="40" name="x_230562_prgorgcha_employeeid" type="integer"/>
         <element label="HiredDate" max_length="40" name="x_230562_prgorgcha_hireddate" type="glide_date_time"/>
         <element label="EmpStatus" max_length="4" name="x_230562_prgorgcha_empstatus" type="string"/>
+        <index name="index">
+            <element name="x_230562_prgorgcha_employeeid"/>
+        </index>
     </element>
 </database>
