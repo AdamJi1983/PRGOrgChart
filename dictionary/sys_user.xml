@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="ref_ac_columns_search=true,global_search_config_handler=UserConfig,all_tables.text_index_translations=true,ref_ac_order_by=name,ref_ac_columns=email,display_image=photo,ref_auto_completer=AJAXTableCompleter,iterativeDelete=true,metadata_link_exempt=true" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" sizeclass="35014" text_index="true" type="collection">
-        <element label="CompanyNum" max_length="40" name="x_230562_prgorgcha_companynum" type="integer"/>
-        <element label="EmployeeID" max_length="20" name="x_230562_prgorgcha_employeeid" type="string"/>
-        <element label="EmpStatus" max_length="4" name="x_230562_prgorgcha_empstatus" type="string"/>
-        <element label="HiredDate" max_length="40" name="x_230562_prgorgcha_hireddate" type="glide_date_time"/>
-        <element label="JobCode" max_length="20" name="x_230562_prgorgcha_jobcode" type="string"/>
+    <element attributes="ref_ac_columns_search=true,global_search_config_handler=UserConfig,all_tables.text_index_translations=true,ref_ac_order_by=name,ref_ac_columns=email,display_image=photo,ref_auto_completer=AJAXTableCompleter,iterativeDelete=true,metadata_link_exempt=true" create_roles="user_admin" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element label="OpsLevel" max_length="40" name="x_230562_prgorgcha_opslevel" type="integer"/>
         <element label="LidTitle" max_length="40" name="x_230562_prgorgcha_lidtitle" type="integer"/>
+        <element label="IsExempt" max_length="40" name="x_230562_prgorgcha_isexempt" type="integer"/>
         <element label="NickName" max_length="50" name="x_230562_prgorgcha_nickname" type="string"/>
+        <element label="SupervisorEID" max_length="20" name="x_230562_prgorgcha_supervisoreid" type="string"/>
+        <element label="EmployeeID" max_length="20" name="x_230562_prgorgcha_employeeid" type="string"/>
+        <element label="ProcessLevel" max_length="20" name="x_230562_prgorgcha_processlevel" type="string"/>
         <element label="PayGrade" max_length="10" name="x_230562_prgorgcha_paygrade" type="string"/>
+        <element label="Region" max_length="20" name="x_230562_prgorgcha_region" type="string"/>
+        <element label="EmpStatus" max_length="4" name="x_230562_prgorgcha_empstatus" type="string"/>
+        <element label="JobCode" max_length="20" name="x_230562_prgorgcha_jobcode" type="string"/>
+        <element label="HiredDate" max_length="40" name="x_230562_prgorgcha_hireddate" type="glide_date_time"/>
+        <element label="CompanyNum" max_length="40" name="x_230562_prgorgcha_companynum" type="integer"/>
         <index name="index">
             <element name="x_230562_prgorgcha_employeeid"/>
         </index>
