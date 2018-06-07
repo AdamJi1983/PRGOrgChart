@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_230562_prgorgcha.Clean Data</event_name>
+        <name>Clean Data</name>
+        <order>100</order>
+        <script><![CDATA[var r = new GlideRecord('sys_user');
+r.addQuery('user_name','CONTAINS','(');
+r.addQuery('user_name','CONTAINS',')');
+r.deleteMultiple();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-07 07:05:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3aa8a69dba293005be49444ca96192d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Clean Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PRGOrgChart" source="x_230562_prgorgcha">4be233a0db6213005be49444ca96199f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRGOrgChart">4be233a0db6213005be49444ca96199f</sys_scope>
+        <sys_update_name>sysevent_script_action_e3aa8a69dba293005be49444ca96192d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-07 07:05:40</sys_updated_on>
+    </sysevent_script_action>
+</record_update>

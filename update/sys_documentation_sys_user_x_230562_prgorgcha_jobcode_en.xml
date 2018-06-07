@@ -11,8 +11,8 @@
             <plural>JobCodes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 12:16:04</sys_created_on>
-            <sys_id>5e867f6cdba213005be49444ca9619bd</sys_id>
+            <sys_created_on>2018-06-07 06:19:37</sys_created_on>
+            <sys_id>86b142a1dba293005be49444ca961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>JobCode</sys_name>
             <sys_package display_value="PRGOrgChart" source="x_230562_prgorgcha">4be233a0db6213005be49444ca96199f</sys_package>
@@ -20,7 +20,7 @@
             <sys_scope display_value="PRGOrgChart">4be233a0db6213005be49444ca96199f</sys_scope>
             <sys_update_name>sys_documentation_sys_user_x_230562_prgorgcha_jobcode_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 12:16:04</sys_updated_on>
+            <sys_updated_on>2018-06-07 06:19:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
