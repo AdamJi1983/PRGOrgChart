@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="OrgChartEmployee" max_length="40" name="x_230562_prgorgcha_orgchartemployee" type="collection">
+        <element attributes="import_attribute_name=CompanyNum" label="CompanyNum" max_length="40" name="u_companynum" type="integer"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=EmployeeID" label="EmployeeID" max_length="40" name="u_employeeid" type="integer"/>
+        <element attributes="import_attribute_name=EmpStatus,edge_encryption_enabled=true" label="EmpStatus" max_length="40" name="u_empstatus" type="string"/>
+        <element attributes="import_attribute_name=First_Name,edge_encryption_enabled=true" label="First_Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=HiredDate" label="HiredDate" max_length="40" name="u_hireddate" type="glide_date_time"/>
+        <element attributes="import_attribute_name=IsExempt" label="IsExempt" max_length="40" name="u_isexempt" type="integer"/>
+        <element attributes="import_attribute_name=JOBcdPayGradeGroup,edge_encryption_enabled=true" label="JOBcdPayGradeGroup" max_length="40" name="u_jobcdpaygradegroup" type="string"/>
+        <element attributes="import_attribute_name=JobCode" label="JobCode" max_length="40" name="u_jobcode" type="integer"/>
+        <element attributes="import_attribute_name=LastTermedDate,edge_encryption_enabled=true" label="LastTermedDate" max_length="40" name="u_lasttermeddate" type="string"/>
+        <element attributes="import_attribute_name=Last_Name,edge_encryption_enabled=true" label="Last_Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=LidTitle" label="LidTitle" max_length="40" name="u_lidtitle" type="integer"/>
+        <element attributes="import_attribute_name=NickName,edge_encryption_enabled=true" label="NickName" max_length="40" name="u_nickname" type="string"/>
+        <element attributes="import_attribute_name=OpsLevel" label="OpsLevel" max_length="40" name="u_opslevel" type="integer"/>
+        <element attributes="import_attribute_name=Processlevel,edge_encryption_enabled=true" label="Processlevel" max_length="40" name="u_processlevel" type="string"/>
+        <element attributes="import_attribute_name=Region,edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="import_attribute_name=SupervisorEID,edge_encryption_enabled=true" label="SupervisorEID" max_length="40" name="u_supervisoreid" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="40" name="u_title" type="string"/>
+    </element>
+</database>
