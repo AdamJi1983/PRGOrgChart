@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="sys_import_set_row" label="UpdateOrgChart" max_length="40" name="x_230562_prgorgcha_updateorgchart" type="collection">
+    <element extends="sys_import_set_row" label="UpdateOrgChart" max_length="40" name="x_230562_prgorgcha_updateorgchart" sizeclass="68872" type="collection">
         <element attributes="import_attribute_name=CompanyNumber,edge_encryption_enabled=true" label="CompanyNumber" max_length="40" name="u_companynumber" type="string"/>
         <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="import_attribute_name=EmpStatus,edge_encryption_enabled=true" label="EmpStatus" max_length="40" name="u_empstatus" type="string"/>
