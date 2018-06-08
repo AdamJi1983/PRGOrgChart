@@ -15,6 +15,7 @@
         <element attributes="import_attribute_name=LidTitle" label="LidTitle" max_length="40" name="u_lidtitle" type="integer"/>
         <element attributes="import_attribute_name=NickName,edge_encryption_enabled=true" label="NickName" max_length="40" name="u_nickname" type="string"/>
         <element attributes="import_attribute_name=OpsLevel" label="OpsLevel" max_length="40" name="u_opslevel" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="PayGrade" max_length="40" name="u_paygrade" type="string"/>
         <element attributes="import_attribute_name=Processlevel,edge_encryption_enabled=true" label="Processlevel" max_length="40" name="u_processlevel" type="string"/>
         <element attributes="import_attribute_name=Region,edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
         <element attributes="import_attribute_name=SupervisorEID,edge_encryption_enabled=true" label="SupervisorEID" max_length="40" name="u_supervisoreid" type="string"/>

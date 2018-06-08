@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="x_230562_prgorgcha_supervisor" label="Supervisor" language="en" table="sys_user">
+    <sys_documentation element="u_paygrade" label="PayGrade" language="en" table="x_230562_prgorgcha_orgchartemployee">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>x_230562_prgorgcha_supervisor</element>
+            <element>u_paygrade</element>
             <help/>
             <hint/>
-            <label>Supervisor</label>
+            <label>PayGrade</label>
             <language>en</language>
-            <name>sys_user</name>
-            <plural>Supervisors</plural>
+            <name>x_230562_prgorgcha_orgchartemployee</name>
+            <plural>PayGrades</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-07 15:01:29</sys_created_on>
-            <sys_id>fe297769db2613005be49444ca961900</sys_id>
+            <sys_created_on>2018-06-08 02:38:10</sys_created_on>
+            <sys_id>18a8567ddbea13005be49444ca9619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Supervisor</sys_name>
+            <sys_name>PayGrade</sys_name>
             <sys_package display_value="PRGOrgChart" source="x_230562_prgorgcha">4be233a0db6213005be49444ca96199f</sys_package>
             <sys_policy/>
             <sys_scope display_value="PRGOrgChart">4be233a0db6213005be49444ca96199f</sys_scope>
-            <sys_update_name>sys_documentation_sys_user_x_230562_prgorgcha_supervisor_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_230562_prgorgcha_orgchartemployee_u_paygrade_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-07 15:01:29</sys_updated_on>
+            <sys_updated_on>2018-06-08 02:38:10</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

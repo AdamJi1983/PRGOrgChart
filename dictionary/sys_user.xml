@@ -13,12 +13,8 @@
         <element label="PayGrade" max_length="10" name="x_230562_prgorgcha_paygrade" type="string"/>
         <element label="ProcessLevel" max_length="20" name="x_230562_prgorgcha_processlevel" type="string"/>
         <element label="Region" max_length="20" name="x_230562_prgorgcha_region" type="string"/>
-        <element label="Supervisor" max_length="32" name="x_230562_prgorgcha_supervisor" reference="sys_user" reference_qual="x_230562_prgorgcha_employeeidSAMEASx_230562_prgorgcha_supervisoreid^EQ" reference_qual_condition="x_230562_prgorgcha_employeeidSAMEASx_230562_prgorgcha_supervisoreid^EQ" type="reference"/>
         <element label="SupervisorEID" max_length="20" name="x_230562_prgorgcha_supervisoreid" type="string"/>
         <index name="index">
-            <element name="x_230562_prgorgcha_supervisor"/>
-        </index>
-        <index name="index2">
             <element name="x_230562_prgorgcha_employeeid"/>
         </index>
     </element>
